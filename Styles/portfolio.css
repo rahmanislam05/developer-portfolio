@@ -39,15 +39,20 @@ nav li {
     list-style: none;
     margin-left: 50px;
 }
+
 /* banner styles */
-.banner{
+.banner {
     display: flex;
     align-items: center;
     margin: 0 200px;
 }
-.banner-titel{
 
+.banner-titel {
+    font-size: 85px;
+    font-weight: 700;
 }
-.banner-subtitel{
 
+.banner-subtitel {
+    font-size: 45px;
+    font-weight: 600;
 }
