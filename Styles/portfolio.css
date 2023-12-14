@@ -213,12 +213,29 @@ nav li {
     text-align: center;
     margin-bottom: 113px;
 }
-/* connect style */
+/* footer  style */
+
 .connect{
     display: flex;
-    gap: 117px;
+    gap: 50px;
     background-color: #FFF8F3;
+    padding: 50px 110px;
 }
-.connect .section-title{
-    margin:30px;
+.connect .section-titel{
+    text-align: left;
+    margin-bottom: 15px;
+}
+.connect a{
+    text-decoration: none;
+}
+
+.connect input[type="text"], input[type="email"], textarea{
+    margin-bottom: 14px;
+    border: 0;
+    padding: 15px 20px;
+    width: 100%;
+}
+
+.connect-description{
+    margin-bottom: 15px;
 }
